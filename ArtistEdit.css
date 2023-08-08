@@ -1,0 +1,103 @@
+form 
+{
+    margin: 30px 215px 30px 265px;
+}
+
+input[type=text], select, input[type=date]
+{
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], select, input[type=date]
+{
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=email], select, input[type=date]
+{
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password], select, input[type=date]
+{
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=file], select, input[type=file]
+{
+  width: 75%;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label 
+{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+        
+.col-25 
+{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 
+{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.allButtons 
+{
+    background-color:#333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.allButtons:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+footer 
+{border-style: ridge; 
+  border-radius: 1px; 
+  border-color:black; 
+  padding: 15px; 
+  margin-left: 120px; 
+  margin-right: 120px; 
+  text-align: center; 
+  background-color: white; 
+  text-decoration: none;
+}
